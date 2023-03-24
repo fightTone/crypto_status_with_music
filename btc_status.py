@@ -78,6 +78,8 @@ for i in range(number_of_loop):
 		actual_riseDrop = compare(prev_value,  current_value)
 		if actual_riseDrop ==  "DROP":
 			playsound('audio.mp3')
+		elif actual_riseDrop == "RISE":
+			playsound('heehee.mp3')
 
 		if prev_pred != "":
 			print("------------------------------------")
